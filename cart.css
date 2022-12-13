@@ -1,0 +1,129 @@
+/* topbar */
+.top-brand {
+    height: 50px;
+    width: auto;
+    background-color: #2d3436;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Aldrich', 'software yahei';
+    color: #ffeaa7;
+}
+
+/* navbar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #023027;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #ffeaa7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.navbar-home) {
+    background-color: #091813;
+}
+
+.navbar-home {
+    background-color: #04AA6D;
+}
+
+.cart {
+    width: 20px;
+    height: 15px;
+}
+
+/* cart content */
+.container {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cart-bar li {
+    float: left;
+    list-style: none;
+
+}
+
+.name {
+    font-size: large;
+    padding-left: 300px;
+}
+
+.amount {
+    font-size: large;
+    padding-left: 300px;
+}
+
+.price {
+    font-size: large;
+    padding-left: 200px;
+}
+
+.box {
+    width: auto;
+    height: 100px;
+}
+.shop1 li {
+    float: left;
+    list-style: none;
+}
+
+.pic {
+    width: 100px;
+    height: auto;
+}
+
+.shopname {
+    padding-left: 190px;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+
+}
+
+.shopamount1 {
+    padding-left: 180px;
+    height: 50px;
+    width: auto;
+    font-size: 30px;
+  
+}
+
+.symbol {
+    text-decoration: none;
+    color: gray;
+}
+.shopprice {
+font-size: 24px;
+padding-left: 150px;
+}
+.break {
+    height: 3px;
+    background-color: #DFE6E9;
+}
+.shopamount2 {
+        padding-left: 140px;
+        height: 50px;
+        width: auto;
+        font-size: 30px;
+}
+.final {
+    width: auto;
+    height: 50px;
+
+    text-align: right;
+    font-size: 25px;
+    padding-right: 150px;
+}
